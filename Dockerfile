@@ -10,7 +10,7 @@ COPY requirements.txt .
 # Install any needed packages specified in requiremnts.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code into the container
+# Copy the rest of the application code into the containr
 COPY . .
 
 # Expose the port that Uvicorn will run o
