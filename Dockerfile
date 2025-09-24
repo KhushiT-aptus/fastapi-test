@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code into the containr
 COPY . .
 
-# Expose the port that Uvicorn will run o
+# Expose the port that Uvicorn will run 
 
 
 # Command to run the FastAPI application with Uvicorn
