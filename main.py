@@ -8,5 +8,5 @@ async def read_root():
 
 @app.get("/items/{item_id}")
 async def read_item(item_id: int, q: str = None):
-    print("tet1")
+    print("tet")
     return {"item_id": item_id, "q": q}
